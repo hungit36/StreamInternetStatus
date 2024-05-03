@@ -1,0 +1,41 @@
+PODS:
+  - check_internet_active (0.0.1):
+    - Flutter
+  - connectivity_plus (0.0.1):
+    - Flutter
+    - ReachabilitySwift
+  - Flutter (1.0.0)
+  - integration_test (0.0.1):
+    - Flutter
+  - ReachabilitySwift (5.2.2)
+
+DEPENDENCIES:
+  - check_internet_active (from `.symlinks/plugins/check_internet_active/ios`)
+  - connectivity_plus (from `.symlinks/plugins/connectivity_plus/ios`)
+  - Flutter (from `Flutter`)
+  - integration_test (from `.symlinks/plugins/integration_test/ios`)
+
+SPEC REPOS:
+  trunk:
+    - ReachabilitySwift
+
+EXTERNAL SOURCES:
+  check_internet_active:
+    :path: ".symlinks/plugins/check_internet_active/ios"
+  connectivity_plus:
+    :path: ".symlinks/plugins/connectivity_plus/ios"
+  Flutter:
+    :path: Flutter
+  integration_test:
+    :path: ".symlinks/plugins/integration_test/ios"
+
+SPEC CHECKSUMS:
+  check_internet_active: da2e86a786f05b2966976e8053849864dee3d2ca
+  connectivity_plus: bf0076dd84a130856aa636df1c71ccaff908fa1d
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  integration_test: 13825b8a9334a850581300559b8839134b124670
+  ReachabilitySwift: 2128f3a8c9107e1ad33574c6e58e8285d460b149
+
+PODFILE CHECKSUM: 6b9eb94e9f98a329f2ef624b852a6e42d090af2b
+
+COCOAPODS: 1.15.2
