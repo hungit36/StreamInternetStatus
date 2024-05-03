@@ -1,15 +1,18 @@
-# check_internet_active
+# StreamInternetStatus
 
-A new Flutter plugin project.
+A plugin can auto check the internet is online or offline.
 
-## Getting Started
+## Use this package as a library
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+Depend on it
 
-For help getting started with Flutter development, view the
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Run this command:
+
+With Flutter:
+
+ $ flutter pub add check_internet_active
+This will add a line like this to your package's pubspec.yaml (and run an implicit flutter pub get):
+
+dependencies:
+  check_internet_active: ^0.0.1
 
