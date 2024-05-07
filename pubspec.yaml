@@ -1,6 +1,6 @@
 name: check_internet_active
 description: A plugin can auto detec the internet is online or offline.
-version: 0.0.1
+version: 0.0.2
 homepage:
 
 environment:

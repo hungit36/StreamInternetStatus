@@ -11,6 +11,9 @@ class NetworkStatusService {
   StreamController<NetworkStatus> networkStatusController = StreamController<NetworkStatus>();
 
   NetworkStatusService() {
+    Connectivity().checkConnectivity().then((status) {
+      networkStatusController.add(_getNetworkStatus(status));
+    });
     Connectivity().onConnectivityChanged.listen((status) {
       networkStatusController.add(_getNetworkStatus(status));
     });
