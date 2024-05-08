@@ -11,10 +11,15 @@ class NetworkAwareWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     NetworkStatus networkStatus = Provider.of<NetworkStatus>(context);
-    if (networkStatus == NetworkStatus.Online) {
-      return onlineChild;
-    } else {
-      return offlineChild;
-    }
+    return Stack(children: [
+      onlineChild,
+      if (networkStatus == NetworkStatus.Offline)
+        Positioned(
+          top: 0,
+          left: 0,
+          right: 0,
+          bottom: 0,
+          child: offlineChild),
+    ],);
   }
 }
