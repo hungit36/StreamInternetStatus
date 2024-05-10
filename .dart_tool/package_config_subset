@@ -126,7 +126,7 @@ xml
 2.19
 file:///Users/hungnguyen/.pub-cache/hosted/pub.dev/xml-6.3.0/
 file:///Users/hungnguyen/.pub-cache/hosted/pub.dev/xml-6.3.0/lib/
-check_internet_active
+stream_internet_status
 3.1
 file:///Users/hungnguyen/StreamInternetStatus/
 file:///Users/hungnguyen/StreamInternetStatus/lib/

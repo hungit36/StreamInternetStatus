@@ -1,6 +1,6 @@
-name: check_internet_active
+name: stream_internet_status
 description: A plugin can auto detec the internet is online or offline.
-version: 0.0.3
+version: 0.0.2
 homepage:
 
 environment:
@@ -37,10 +37,10 @@ flutter:
   plugin:
     platforms:
       android:
-        package: com.khohatsi.check_internet_active
-        pluginClass: CheckInternetActivePlugin
+        package: com.khohatsi.stream_internet_status
+        pluginClass: StreamInternetStatusPlugin
       ios:
-        pluginClass: CheckInternetActivePlugin
+        pluginClass: StreamInternetStatusPlugin
 
   # To add assets to your plugin package, add an assets section, like this:
   # assets:

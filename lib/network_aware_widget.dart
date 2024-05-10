@@ -1,4 +1,4 @@
-import 'package:check_internet_active/network_status_service.dart';
+import 'package:stream_internet_status/network_status_service.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -11,6 +11,9 @@ class NetworkAwareWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     NetworkStatus networkStatus = Provider.of<NetworkStatus>(context);
+    if (networkStatus == NetworkStatus.Offline) {
+      FocusScope.of(context).requestFocus( FocusNode());
+    }
     return Stack(children: [
       onlineChild,
       if (networkStatus == NetworkStatus.Offline)

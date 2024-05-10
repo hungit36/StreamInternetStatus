@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
-        android:label="check_internet_active_example"
+        android:label="stream_internet_status_example"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

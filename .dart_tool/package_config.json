@@ -218,13 +218,13 @@
       "languageVersion": "2.19"
     },
     {
-      "name": "check_internet_active",
+      "name": "stream_internet_status",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "3.1"
     }
   ],
-  "generated": "2024-05-08T04:37:36.931109Z",
+  "generated": "2024-05-10T09:43:59.252567Z",
   "generator": "pub",
   "generatorVersion": "3.1.1"
 }

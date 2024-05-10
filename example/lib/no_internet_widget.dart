@@ -1,4 +1,4 @@
-import 'package:check_internet_active_example/my_loading_view.dart';
+import 'package:stream_internet_status_example/my_loading_view.dart';
 import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';

@@ -1,6 +1,6 @@
-# check_internet_active_example
+# stream_internet_status_example
 
-Demonstrates how to use the check_internet_active plugin.
+Demonstrates how to use the stream_internet_status plugin.
 
 ## Getting Started
 

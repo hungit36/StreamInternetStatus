@@ -1,4 +1,4 @@
-group 'com.khohatsi.check_internet_active'
+group 'com.khohatsi.stream_internet_status'
 version '1.0-SNAPSHOT'
 
 buildscript {
@@ -26,7 +26,7 @@ apply plugin: 'kotlin-android'
 
 android {
     if (project.android.hasProperty("namespace")) {
-        namespace 'com.khohatsi.check_internet_active'
+        namespace 'com.khohatsi.stream_internet_status'
     }
 
     compileSdkVersion 33

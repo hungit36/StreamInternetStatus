@@ -1,10 +1,10 @@
 import Flutter
 import UIKit
 
-public class CheckInternetActivePlugin: NSObject, FlutterPlugin {
+public class StreamInternetStatusPlugin: NSObject, FlutterPlugin {
   public static func register(with registrar: FlutterPluginRegistrar) {
-    let channel = FlutterMethodChannel(name: "check_internet_active", binaryMessenger: registrar.messenger())
-    let instance = CheckInternetActivePlugin()
+    let channel = FlutterMethodChannel(name: "stream_internet_status", binaryMessenger: registrar.messenger())
+    let instance = StreamInternetStatusPlugin()
     registrar.addMethodCallDelegate(instance, channel: channel)
   }
 

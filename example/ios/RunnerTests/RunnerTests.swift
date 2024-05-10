@@ -2,7 +2,7 @@ import Flutter
 import UIKit
 import XCTest
 
-@testable import check_internet_active
+@testable import stream_internet_status
 
 // This demonstrates a simple unit test of the Swift portion of this plugin's implementation.
 //
@@ -11,7 +11,7 @@ import XCTest
 class RunnerTests: XCTestCase {
 
   func testGetPlatformVersion() {
-    let plugin = CheckInternetActivePlugin()
+    let plugin = StreamInternetStatusPlugin()
 
     let call = FlutterMethodCall(methodName: "getPlatformVersion", arguments: [])
 

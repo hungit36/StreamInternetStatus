@@ -1,6 +1,6 @@
-import 'package:check_internet_active_example/no_internet_widget.dart';
+import 'package:stream_internet_status/stream_internet_status.dart';
 import 'package:flutter/material.dart';
-import 'package:check_internet_active/check_internet_active.dart';
+import 'package:stream_internet_status_example/no_internet_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -23,7 +23,12 @@ class _MyAppState extends State<MyApp> {
           title: const Text('Plugin example app'),
         ),
         body: StreamInternetStatus(onlineChild: Container(
-          child: Center(child: Text('Normal Screen')),
+          child: Center(child: Column(
+            children: [
+              Text('Normal Screen'),
+              TextField(),
+            ],
+          )),
         ), offlineChild: const NoInterNetWidget()),
       ),
     );

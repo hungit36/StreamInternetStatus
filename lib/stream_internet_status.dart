@@ -1,7 +1,7 @@
 
 
-import 'package:check_internet_active/network_aware_widget.dart';
-import 'package:check_internet_active/network_status_service.dart';
+import 'package:stream_internet_status/network_aware_widget.dart';
+import 'package:stream_internet_status/network_status_service.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 

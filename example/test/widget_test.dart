@@ -8,7 +8,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:check_internet_active_example/main.dart';
+import 'package:stream_internet_status_example/main.dart';
 
 void main() {
   testWidgets('Verify Platform version', (WidgetTester tester) async {
