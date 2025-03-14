@@ -33,21 +33,21 @@
     },
     {
       "name": "collection",
-      "rootUri": "file:///Users/hungnguyen/.pub-cache/hosted/pub.dev/collection-1.17.2",
+      "rootUri": "file:///Users/hungnguyen/.pub-cache/hosted/pub.dev/collection-1.18.0",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
     {
       "name": "connectivity_plus",
-      "rootUri": "file:///Users/hungnguyen/.pub-cache/hosted/pub.dev/connectivity_plus-5.0.2",
+      "rootUri": "file:///Users/hungnguyen/.pub-cache/hosted/pub.dev/connectivity_plus-6.1.0",
       "packageUri": "lib/",
-      "languageVersion": "2.18"
+      "languageVersion": "3.2"
     },
     {
       "name": "connectivity_plus_platform_interface",
-      "rootUri": "file:///Users/hungnguyen/.pub-cache/hosted/pub.dev/connectivity_plus_platform_interface-1.2.4",
+      "rootUri": "file:///Users/hungnguyen/.pub-cache/hosted/pub.dev/connectivity_plus_platform_interface-2.0.1",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.18"
     },
     {
       "name": "dbus",
@@ -71,7 +71,7 @@
       "name": "flutter",
       "rootUri": "file:///Users/hungnguyen/flutter/packages/flutter",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "3.3"
     },
     {
       "name": "flutter_lints",
@@ -83,19 +83,31 @@
       "name": "flutter_test",
       "rootUri": "file:///Users/hungnguyen/flutter/packages/flutter_test",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "3.3"
     },
     {
       "name": "flutter_web_plugins",
       "rootUri": "file:///Users/hungnguyen/flutter/packages/flutter_web_plugins",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "3.2"
     },
     {
-      "name": "js",
-      "rootUri": "file:///Users/hungnguyen/.pub-cache/hosted/pub.dev/js-0.6.7",
+      "name": "leak_tracker",
+      "rootUri": "file:///Users/hungnguyen/.pub-cache/hosted/pub.dev/leak_tracker-10.0.5",
       "packageUri": "lib/",
-      "languageVersion": "2.19"
+      "languageVersion": "3.2"
+    },
+    {
+      "name": "leak_tracker_flutter_testing",
+      "rootUri": "file:///Users/hungnguyen/.pub-cache/hosted/pub.dev/leak_tracker_flutter_testing-3.0.5",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
+      "name": "leak_tracker_testing",
+      "rootUri": "file:///Users/hungnguyen/.pub-cache/hosted/pub.dev/leak_tracker_testing-3.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
     },
     {
       "name": "lints",
@@ -105,19 +117,19 @@
     },
     {
       "name": "matcher",
-      "rootUri": "file:///Users/hungnguyen/.pub-cache/hosted/pub.dev/matcher-0.12.16",
+      "rootUri": "file:///Users/hungnguyen/.pub-cache/hosted/pub.dev/matcher-0.12.16+1",
       "packageUri": "lib/",
-      "languageVersion": "2.18"
+      "languageVersion": "3.0"
     },
     {
       "name": "material_color_utilities",
-      "rootUri": "file:///Users/hungnguyen/.pub-cache/hosted/pub.dev/material_color_utilities-0.5.0",
+      "rootUri": "file:///Users/hungnguyen/.pub-cache/hosted/pub.dev/material_color_utilities-0.11.1",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "meta",
-      "rootUri": "file:///Users/hungnguyen/.pub-cache/hosted/pub.dev/meta-1.9.1",
+      "rootUri": "file:///Users/hungnguyen/.pub-cache/hosted/pub.dev/meta-1.15.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -135,9 +147,9 @@
     },
     {
       "name": "path",
-      "rootUri": "file:///Users/hungnguyen/.pub-cache/hosted/pub.dev/path-1.8.3",
+      "rootUri": "file:///Users/hungnguyen/.pub-cache/hosted/pub.dev/path-1.9.0",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "3.0"
     },
     {
       "name": "petitparser",
@@ -161,7 +173,7 @@
       "name": "sky_engine",
       "rootUri": "file:///Users/hungnguyen/flutter/bin/cache/pkg/sky_engine",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "3.2"
     },
     {
       "name": "source_span",
@@ -171,15 +183,15 @@
     },
     {
       "name": "stack_trace",
-      "rootUri": "file:///Users/hungnguyen/.pub-cache/hosted/pub.dev/stack_trace-1.11.0",
+      "rootUri": "file:///Users/hungnguyen/.pub-cache/hosted/pub.dev/stack_trace-1.11.1",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
     {
       "name": "stream_channel",
-      "rootUri": "file:///Users/hungnguyen/.pub-cache/hosted/pub.dev/stream_channel-2.1.1",
+      "rootUri": "file:///Users/hungnguyen/.pub-cache/hosted/pub.dev/stream_channel-2.1.2",
       "packageUri": "lib/",
-      "languageVersion": "2.14"
+      "languageVersion": "2.19"
     },
     {
       "name": "string_scanner",
@@ -195,9 +207,9 @@
     },
     {
       "name": "test_api",
-      "rootUri": "file:///Users/hungnguyen/.pub-cache/hosted/pub.dev/test_api-0.6.0",
+      "rootUri": "file:///Users/hungnguyen/.pub-cache/hosted/pub.dev/test_api-0.7.2",
       "packageUri": "lib/",
-      "languageVersion": "2.18"
+      "languageVersion": "3.2"
     },
     {
       "name": "vector_math",
@@ -206,10 +218,16 @@
       "languageVersion": "2.14"
     },
     {
-      "name": "web",
-      "rootUri": "file:///Users/hungnguyen/.pub-cache/hosted/pub.dev/web-0.1.4-beta",
+      "name": "vm_service",
+      "rootUri": "file:///Users/hungnguyen/.pub-cache/hosted/pub.dev/vm_service-14.2.5",
       "packageUri": "lib/",
-      "languageVersion": "3.1"
+      "languageVersion": "3.3"
+    },
+    {
+      "name": "web",
+      "rootUri": "file:///Users/hungnguyen/.pub-cache/hosted/pub.dev/web-1.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.4"
     },
     {
       "name": "xml",
@@ -224,7 +242,10 @@
       "languageVersion": "3.1"
     }
   ],
-  "generated": "2024-05-10T09:43:59.252567Z",
+  "generated": "2024-10-24T04:49:16.745977Z",
   "generator": "pub",
-  "generatorVersion": "3.1.1"
+  "generatorVersion": "3.5.3",
+  "flutterRoot": "file:///Users/hungnguyen/flutter",
+  "flutterVersion": "3.24.3",
+  "pubCache": "file:///Users/hungnguyen/.pub-cache"
 }

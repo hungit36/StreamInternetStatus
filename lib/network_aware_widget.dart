@@ -11,9 +11,6 @@ class NetworkAwareWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     NetworkStatus networkStatus = Provider.of<NetworkStatus>(context);
-    if (networkStatus == NetworkStatus.Offline) {
-      FocusScope.of(context).requestFocus( FocusNode());
-    }
     return Stack(children: [
       onlineChild,
       if (networkStatus == NetworkStatus.Offline)

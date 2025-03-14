@@ -20,8 +20,8 @@ class NetworkStatusService {
     });
   }
 
-  NetworkStatus _getNetworkStatus(ConnectivityResult status) {
-    networkStatus = status == ConnectivityResult.mobile || status == ConnectivityResult.wifi
+  NetworkStatus _getNetworkStatus(List<ConnectivityResult> connectivityResult) {
+    networkStatus = connectivityResult.contains(ConnectivityResult.mobile) || connectivityResult.contains(ConnectivityResult.wifi)
         ? NetworkStatus.Online
         : NetworkStatus.Offline;
     return networkStatus;
