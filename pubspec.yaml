@@ -1,6 +1,6 @@
 name: stream_internet_status
 description: A plugin can auto detec the internet is online or offline.
-version: 0.0.4
+version: 0.0.5
 homepage:
 
 environment:
@@ -8,16 +8,16 @@ environment:
   flutter: '>=3.3.0'
 
 dependencies:
-  connectivity_plus: ^6.1.0
+  connectivity_plus: ^7.0.0
   flutter:
     sdk: flutter
-  plugin_platform_interface: ^2.0.2
-  provider: ^6.1.2
+  plugin_platform_interface: ^2.1.8
+  provider: ^6.1.5
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.0
+  flutter_lints: ^5.0.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
